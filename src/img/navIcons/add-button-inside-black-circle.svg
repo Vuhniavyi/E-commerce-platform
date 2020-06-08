@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>add-button-inside-black-circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Мой-кабинет-(Недоступен)" transform="translate(-28.000000, -636.000000)" fill="#B2B2B2" fill-rule="nonzero">
+            <g id="-Left" transform="translate(0.000000, 7.000000)">
+                <g id="Group" transform="translate(28.000000, 629.000000)">
+                    <g id="Group-2">
+                        <g id="add-button-inside-black-circle">
+                            <path d="M12.5,0 C5.625,0 0,5.625 0,12.5 C0,19.375 5.625,25 12.5,25 C19.375,25 25,19.375 25,12.5 C25,5.625 19.375,0 12.5,0 Z M18.75,13.75 L13.75,13.75 L13.75,18.75 L11.25,18.75 L11.25,13.75 L6.25,13.75 L6.25,11.25 L11.25,11.25 L11.25,6.25 L13.75,6.25 L13.75,11.25 L18.75,11.25 L18.75,13.75 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

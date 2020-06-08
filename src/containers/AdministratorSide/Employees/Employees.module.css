@@ -1,0 +1,121 @@
+.title {
+    color: #4A4A4A;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.addBtn {
+    height: 40px;
+    width: 261px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+.employeesTable {
+    height: 926px;
+    width: 100%;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 41px 29px;
+}
+
+.searchEmployees {
+    position: relative;
+}
+.searchEmployees input[type=search] {
+    height: 46px;
+    position: inherit;
+    width: 100%;
+}
+.searchEmployees input[type=submit] {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+}
+.userName {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.userImg {
+    height: 100px;
+    width: 100px;
+    margin-right: 60px;
+}
+.userImg img {
+    width: 100%;
+}
+.searchEmployees {
+    display: flex;
+}
+
+.choosePosition {
+    width: 144px;
+    height: 46px;
+    border: 1px solid #ECECEC;
+    /*border-radius: 5px;*/
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 162px;
+}
+.selectRights {
+    width: 162px;
+    height: 46px;
+    border: 1px solid #ECECEC;
+    /*border-radius: 5px;*/
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 0;
+
+}
+.addEmployee div {
+
+}
+
+.addEmployee label {
+    color: #4A4A4A;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.invite {
+    height: 40px;
+    width: 261px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: auto;
+    display: block;
+}
+
+.hardCodeDiv {
+    font-size: 33px;
+    text-align: center;
+    margin-top: 57px;
+    font-weight: 900;
+}
+

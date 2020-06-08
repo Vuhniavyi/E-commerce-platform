@@ -1,0 +1,70 @@
+.title {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.servicesBlock {
+  /*height: 403px;*/
+  width: 1156px;
+  /* border: 1px solid #ececec; */
+  border-radius: 5px;
+  /* background-color: #ffffff; */
+  padding: 40px 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.servicesItem {
+  text-align: center;
+  width: 330px;
+  margin-bottom: 19px;
+  padding-bottom: 20px;
+}
+.item {
+  min-height: 1px;
+  width: 100%;
+  /* border: 1px solid #ececec; */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  /* padding: 26px 28px 31px 43px; */
+  flex-direction: column;
+  margin-bottom: 19px;
+}
+
+.payActions {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.itemImg {
+  margin-bottom: 18px;
+}
+.itemImg img {
+  width: 100%;
+}
+.itemTitle {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-weight: bold;
+
+  margin-bottom: 18px;
+}
+
+.itemDescription {
+  color: #9b9b9b;
+  font-family: Ubuntu;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.modalContent {
+  margin-bottom: 25px;
+}

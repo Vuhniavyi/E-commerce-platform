@@ -1,0 +1,71 @@
+.selectWrap {
+  max-height: 300px;
+  overflow: auto;
+  padding-right: 15px;
+}
+
+.selectProductItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.selectProductItem p {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectProductImg {
+  display: inline-block;
+  width: 55px;
+  margin-right: 10px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.selectInput {
+  width: 50px;
+  outline: 0;
+  border: 1px solid gray;
+  padding-left: 4px;
+  margin-right: 4px;
+}
+
+.inputWrap {
+  display: flex;
+  width: 128px;
+}
+
+.textWrap {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.antModalTitle {
+  text-align: center;
+  font-weight: 900;
+}
+
+.selectInput {
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  text-align: center;
+  width: 60px;
+  height: 25px;
+}
+
+.selectInput:focus{
+  color: #199caa;
+  border-color: #199caa;
+}

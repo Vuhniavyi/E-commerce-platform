@@ -1,0 +1,54 @@
+.replenish,
+.payBtn {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+}
+.replenish {
+    width: 145px;
+    margin-right: 15px;
+}
+.payBtn {
+    width: 270px;
+    margin-top: 49px;
+    margin-left: 358px;
+}
+.payActions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.modalContent {
+    margin-bottom: 59px;
+}
+.modalContent p {
+    color: #9B9B9B;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 23px;
+}
+.tabFlex {
+    display: flex;
+    justify-content: space-between;
+}
+.inputGroup {
+    width: 270px;
+}
+
+
+.payBtnNew {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    width: 270px;
+}

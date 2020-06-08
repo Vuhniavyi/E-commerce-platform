@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>user</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Мой-кабинет-(Недоступен)" transform="translate(-27.000000, -123.000000)" fill="#B2B2B2">
+            <g id="-Left" transform="translate(0.000000, 7.000000)">
+                <g id="Group" transform="translate(27.000000, 115.000000)">
+                    <g id="Group-2">
+                        <g id="user" transform="translate(0.000000, 1.000000)">
+                            <circle id="Oval" cx="9.98858447" cy="5.47945205" r="5.47945205"></circle>
+                            <path d="M9.98858447,13.6986301 C4.50356164,13.6986301 0.0570776256,18.1451142 0.0570776256,23.630137 L19.9200913,23.630137 C19.9200913,18.1451142 15.4736073,13.6986301 9.98858447,13.6986301 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

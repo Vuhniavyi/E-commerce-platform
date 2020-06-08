@@ -1,0 +1,273 @@
+.title {
+  color: #4a4a4a;
+
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-bottom: 15px;
+}
+
+.title i {
+  margin: 0 20px 0 0;
+}
+
+/* .title i:hover {
+  color: #4a90e2;
+  cursor: pointer;
+} */
+
+.totalProducts {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: auto;
+  padding: 10px;
+}
+.totalProducts span {
+  margin-left: 10px;
+  color: #26c6da;
+}
+.totalProductsBottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  font-weight: bold;
+  margin: -45px 20px 0 auto;
+}
+
+.top {
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.top span {
+  display: inline-block;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.howToAdd {
+  color: #ff7d01 !important;
+  font-family: Ubuntu;
+  font-size: 16px;
+  display: block;
+}
+
+.categoryList {
+  height: auto;
+  width: 271px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 29px;
+}
+
+.dropdownMenu {
+  height: 767px;
+  width: 100%;
+  padding: 25px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #ffffff;
+  /*display: flex;*/
+}
+
+.dropdownMenu h5 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+}
+
+.dropdownMenuList {
+  display: flex;
+  width: 100%;
+  /*flex-direction: column;*/
+  align-items: center;
+}
+
+.dropdownMenu ul li a {
+  display: block;
+}
+
+.categories {
+  width: 100%;
+  display: flex;
+}
+
+.categoriesBlock {
+  height: max-content;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.actions {
+  display: flex;
+}
+.actions button {
+  margin-right: 10px;
+}
+/* .addToMyProducts {
+  height: 40px;
+  width: 234px;
+  border-radius: 5px;
+  background-color: #b1b1b1;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-right: 20px;
+} */
+
+/* .downloadExel {
+  height: 40px;
+  width: 206px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-right: 20px;
+} */
+
+.search {
+  display: flex;
+  width: 100%;
+  position: relative;
+  width: 297px;
+}
+
+input[type="search"] {
+  height: 41px;
+  width: 297px;
+  padding-left: 20px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+input[type="submit"] {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 45px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  background-image: url("../../../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Filter */
+.filter {
+  padding: 30px 0 0 0;
+  background: #fff;
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: flex-end;
+}
+
+.filter label {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  display: block;
+  margin-bottom: 8.5px;
+}
+
+/*.filter .code,*/
+/*.filter .vendorCode {*/
+/*height: 31px;*/
+/*width: 108px;*/
+/*border: 1px solid #B2B2B2;*/
+/*border-radius: 3px;*/
+/*background-color: #FFFFFF;*/
+/*}*/
+
+.filter .productName {
+  height: 31px;
+  width: 100%;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 0 0 0 5px;
+}
+
+.filter > div {
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter .category {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.filter .nameProduct {
+  width: 24%;
+}
+.filter .vendorCode {
+  width: 8%;
+}
+.filter .brand {
+  width: 13%;
+}
+.filter .category {
+  width: 25%;
+}
+
+.filter .availability {
+  height: 31px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.filter .priceMin,
+.filter .priceMax {
+  height: 31px;
+  width: 80px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.find {
+  height: 40px;
+  width: 169px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-top: 20px;
+  display: block;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.howToAdd {
+  color: #4a90e2;
+  font-family: Ubuntu;
+  font-size: 26px;
+  display: block;
+}
+

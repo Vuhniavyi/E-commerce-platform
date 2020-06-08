@@ -1,0 +1,233 @@
+* {
+  outline: none;
+}
+
+.mainInfo {
+  background: #000;
+}
+
+.mainInfo form {
+  background: #fff;
+}
+.title {
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+form.userMainInfo {
+  display: flex;
+  /* background: linear-gradient(60deg, #26c6da, #028c9e); */
+}
+
+.userInfo {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.ChangeAvatar {
+  display: flex;
+  justify-content: space-between;
+  width: 44%;
+  margin-bottom: 53px;
+}
+
+.userAvatar {
+  height: 200px;
+  width: 200px;
+  /* margin-right: 29px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.ChangeAvatar h3 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.userAvatarInfo {
+  width: 261px;
+}
+.userAvatarInfo > span {
+  /* color: #9B9B9B; */
+  font-family: Ubuntu;
+  font-size: 14px;
+  /* line-height: 20px; */
+  display: block;
+  margin-bottom: 63px;
+}
+
+.btnPrimary,
+.save {
+  height: 40px;
+  width: 261px;
+  border-radius: 5px;
+  background-color: orange;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.EmailNotifications {
+  margin-bottom: 33px;
+  width: 50%;
+}
+
+.EmailNotifications .ant-checkbox-group,
+.smsNotifications .ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.EmailNotifications h3 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.EmailNotifications input[type="checkbox"],
+.smsNotifications input[type="checkbox"] {
+  margin-right: 19px;
+}
+
+.EmailNotifications label,
+.smsNotifications label {
+  color: #969696 !important;
+  font-family: Ubuntu;
+  font-size: 16px;
+  /*line-height: 18px;*/
+}
+
+.smsNotifications h3 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.smsNotifications .number {
+  color: #969696;
+  font-family: Ubuntu;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 17px;
+  display: block;
+}
+
+.smsNotifications {
+  margin-bottom: 37px;
+}
+
+.save {
+  margin: auto 0 0 auto;
+  display: block;
+}
+
+.referralProgram {
+  background: #fff;
+}
+
+.referralProgram h5 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+.copyLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 35px 0;
+}
+
+.copyLink input {
+  height: 41px;
+  width: 532px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  margin: 0 20px 0 0;
+}
+
+.button {
+  color: rgba(0, 0, 0, 0.87) !important;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  background-color: #e0e0e0 !important;
+  padding: 6px 16px !important;
+}
+
+.button:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: #d5d5d5;
+}
+
+.ant-table table {
+  text-align: center !important;
+}
+
+.loginFormButton {
+  width: 200px;
+  margin-top: 20px !important;
+}
+
+.uploadBtn {
+  width: 40px;
+  height: 30px;
+  background: #000;
+  opacity: 0.4;
+  color: #ffffff;
+  font-size: 16px;
+  z-index: 100;
+  border: none;
+  border-radius: 0 12px 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.dropzone {
+}
+.uploadBtn:hover {
+  zoom: 1;
+  opacity: 0.7;
+}
+.defaultAva {
+  width: 150px;
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 150px;
+  background-color: #00cc99;
+}
+.paper {
+  padding: 20px;
+  margin-top: 20px;
+}

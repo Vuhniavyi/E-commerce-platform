@@ -1,0 +1,173 @@
+/* .Form {
+  margin: 40px auto;
+  height: auto;
+  width: 491px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 28px 30px 45px 30px;
+} */
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginFormButton {
+  height: 40px;
+  width: 261px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-left: auto;
+  display: block;
+}
+/* .Form label {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 9.5px;
+  display: block;
+} */
+
+.selectedRole div {
+  width: 100%;
+  display: flex !important;
+}
+.selectedRole div label {
+  width: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 50%;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.titleConfirm {
+  padding: 15px 0;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.confirmContent {
+  display: flex;
+  align-items: center;
+}
+.title {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+  /* border-bottom: 1px solid #e2e2e2; */
+
+  margin-bottom: 23px;
+}
+
+.actions {
+  margin-top: 42px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: #434343;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.logo img {
+  margin: 0 18px 0 0;
+}
+.regBtn {
+  height: 40px;
+  width: 210px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}
+
+.confirmBlock {
+  margin: 50px auto;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.confirmBlock h1 {
+  font-size: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e2e2e2;
+}
+
+/*Media*/
+
+@media screen and (max-width: 992px) {
+  .form {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* .Form {
+    width: 95%;
+  } */
+}
+
+@media screen and (max-width: 480px) {
+  /* .Form {
+    height: auto;
+    padding: 20px;
+  } */
+  .actions {
+    margin-top: 0;
+    justify-content: center;
+  }
+  .actions a {
+    margin-bottom: 10px;
+  }
+  .loginFormButton {
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.forgot {
+  margin-top: 15px;
+  text-align: right;
+  width: 100%;
+}

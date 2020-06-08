@@ -1,0 +1,106 @@
+.main {
+    padding: 28px 30px;
+}
+
+.title {
+    color: #4A4A4A;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 27px;
+}
+
+.instructionBlock {
+    height: auto;
+    width: 100%;
+    border: 1px solid #ECECEC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 48px 86px 25px 99px;
+}
+.instructionBlock p {
+    color: #808080;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 23px;
+}
+.instructionBlock h4 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.modalScreensList {
+    list-style: none;
+}
+
+.modalTabsList {
+    padding-left: 45px;
+    margin-bottom: 19px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/* ========== New styles ============ */
+.dataList {
+    padding-left: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.excelButton {
+    display: block;
+    margin: 0 auto 50px;
+    height: 40px;
+    width: 300px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.excelButton_text {
+    margin: 0;
+}
+.excelButton_text::after {
+    content: "";
+    display: inline-block;
+    background-image: url("../../../img/ExcelLogoMini.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.fieldDescriptionList {
+    list-style: none;
+    color: #808080;
+}
+
+iframe,
+.title,
+.paragraph,
+.instructionBlock > p,
+.instructionBlock > h4,
+.instructionBlock img {
+    margin-bottom: 30px;
+}

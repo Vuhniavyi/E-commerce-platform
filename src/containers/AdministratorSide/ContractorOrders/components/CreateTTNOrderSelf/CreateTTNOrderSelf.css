@@ -1,0 +1,63 @@
+.createTTN_tabs .ant-tabs-bar {
+  border-bottom: 1px solid #ececec;
+}
+.createTTN_tabs .ant-tabs-content {
+  background: #fff;
+  border: none;
+  padding: 0;
+}
+.createTTN_tabs .ant-tabs-top-content > .ant-tabs-tabpane-inactive {
+  height: auto;
+  padding: 25px !important;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.createTTN_tabs .ant-tabs-tabpane {
+  padding: 25px;
+}
+.createTTN_inputsGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.createTTN_mainButton,
+.createTTN_mainButton button {
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  margin: 8px;
+  /* background-color: #2171cf; */
+}
+
+.createTTN_mainButton button,
+button.createTTN_mainButton {
+  padding: 0px 16px;
+  font-size: 13px;
+  width: 250px;
+}
+
+.sendToContractor {
+  background-color: #8bb8ec;
+}
+.searchOtherContractor {
+  background-color: #4a90e2;
+}
+.sendYourself {
+  background-color: #2171cf;
+}
+
+.createTTN_mainButton button {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}

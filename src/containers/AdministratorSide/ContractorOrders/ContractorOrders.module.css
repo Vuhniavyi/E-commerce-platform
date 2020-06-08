@@ -1,0 +1,187 @@
+
+.searchOrders {
+  width: 100%;
+  background: #fff;
+  padding: 24px 29px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+
+.searchOrders label {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 9px;
+  display: block;
+  text-align: center;
+}
+
+.searchOrders .orderNumber,
+.searchOrders .orderStatus,
+.searchOrders .name {
+  margin-right: 19px;
+}
+
+.searchOrders .orderNumber {
+  width: 18%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchOrders .orderNumber input {
+  height: 31px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.searchOrders .orderDate input {
+  height: 31px;
+  width: 112px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding-left: 10px;
+  margin-right: 12px;
+  margin-right: 12px;
+}
+
+.searchOrders .orderStatus select {
+  height: 31px;
+  width: 130px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+  display: block;
+}
+
+.searchOrders .name input {
+  height: 31px;
+  width: 138px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.searchOrders .phone input {
+  height: 31px;
+  width: 162px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.searchOrders .find {
+  height: 40px;
+  width: 169px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.orderDescription {
+  display: flex;
+}
+
+.product {
+  width: 70%;
+  border-right: 1px solid #e2e2e2;
+}
+.product h4 {
+  width: 140px;
+}
+
+.orderStatusInTable {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  width: 30%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+.productItem img {
+  margin-right: 30px;
+}
+.productPrice {
+  margin: 0 0 0 auto;
+  padding-right: 20px;
+}
+
+.delivery {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+.delivery h4 {
+  margin-right: 55px;
+}
+.total {
+  display: flex;
+  padding: 20px 0;
+}
+.total h4 {
+  margin-right: 55px;
+}
+
+.imgExpand {
+  width: 140px;
+}
+
+
+.title {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+.total {
+  display: flex;
+  padding: 20px 0;
+}
+
+.wrapImg {
+  display: flex;
+  height: 60px;
+}
+
+.img {
+  width: 50px;
+  height: auto;
+}
+
+.delivery h4 {
+  margin-right: 55px;
+}
+
+.status {
+  margin-right: 14px;
+  display: inline-block;
+}

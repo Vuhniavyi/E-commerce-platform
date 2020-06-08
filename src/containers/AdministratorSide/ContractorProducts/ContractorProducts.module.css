@@ -1,0 +1,371 @@
+.Page {
+  position: relative;
+}
+
+.status {
+  position: absolute;
+  right: 0;
+  width: 30px;
+}
+
+.status img {
+  width: 100%;
+}
+.categoriesBlock button {
+  margin-right: 15px;
+}
+.title {
+  color: #4a4a4a;
+
+  font-size: 22px;
+  font-weight: bold;
+  line-height: initial;
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10px 10px;
+  margin: 0;
+}
+
+.title i {
+  margin: 0 20px 0 0;
+}
+
+.title i:hover {
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  font-size: 22px;
+  align-items: center;
+  /* justify-content: space-between; */
+  background: #fafafa;
+  border-bottom: 1px solid #ececec;
+}
+.questionIcon {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 30px !important;
+  cursor: pointer;
+}
+.howToAdd {
+  color: #ff7d01;
+  font-family: Ubuntu;
+  font-size: 26px;
+  display: block;
+}
+
+.categoryList {
+  width: 25%;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 29px;
+}
+
+.dropdownMenu {
+  height: 767px;
+  width: 836px;
+  padding: 25px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.dropdownMenu h5 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+}
+
+.dropdownMenuList {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.dropdownMenu ul li a {
+  display: block;
+}
+
+.productName img {
+  width: 80px;
+  margin: 0 20px 0 0;
+}
+
+.categories {
+  display: flex;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.addToMyProducts {
+  height: 40px;
+  width: 234px;
+  border-radius: 5px;
+  background-color: #b1b1b1;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-right: 20px;
+}
+
+.downloadExel {
+  height: 40px;
+  width: 206px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-right: 20px;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  position: relative;
+  width: 297px;
+}
+
+input[type='search'] {
+  height: 41px;
+  width: 297px;
+  padding-left: 20px;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+input[type='submit'] {
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 45px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  background-image: url('../../../img/search.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.historyPage {
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+}
+
+.fileBlock {
+  margin: 20px 0;
+  padding: 0 30px 0 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fileName {
+  color: #000;
+  font-size: 12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.errorsBlock {
+  margin: 10px 0 0 20px;
+  color: #4f4f4f;
+}
+
+.icon {
+  color: green;
+  font-size: 20px;
+}
+
+.removeBtn {
+  bottom: 50px;
+}
+
+/* Filter */
+.filter {
+  padding: 30px 0 0 0;
+  background: #fff;
+  display: flex;
+  align-items: flex-end;
+}
+
+.filter label {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  display: block;
+  margin-bottom: 8.5px;
+}
+
+.filter .productName {
+  height: 31px;
+  width: 100%;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 0 0 0 5px;
+}
+
+.filter > div {
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter .category {
+  width: 100%;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.filter .nameProduct {
+  width: 24%;
+}
+.filter .vendorCode {
+  width: 8%;
+}
+.filter .brand {
+  width: 13%;
+}
+.filter .category {
+  width: 25%;
+}
+
+.filter .availability {
+  height: 31px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.filter .priceMin,
+.filter .priceMax {
+  height: 31px;
+  width: 80px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.find {
+  height: 40px;
+  width: 169px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-top: 20px;
+  display: block;
+}
+/* 
+.totalProductsBottom {
+  align-self: flex-start;
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 auto 0 20px;
+} */
+.paper {
+  margin-right: auto;
+}
+.totalProducts {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
+.totalProducts > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.totalProducts span {
+  font-size: 18px;
+  color: #26c6da;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.excelModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.excelModal__description {
+  height: 195px;
+  margin: 14px 0;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 195px;
+
+  color: #4a90e2;
+
+  background-image: url('../../../img/ExcelLogo.svg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.excelModal__button {
+  height: 40px;
+  width: 300px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.excelModal__button_last {
+  margin: 19px 0 -14px;
+}
+.excelModal__button_last_text {
+  color: #26c6da;
+  margin: 0;
+}
+.excelModal__button_last_text::after {
+  content: '';
+  display: inline-block;
+  background-image: url('../../../img/ExcelLogoMini.svg');
+
+  width: 24px;
+  height: 24px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.link {
+  color: rgba(0, 0, 0, 0.85);
+}

@@ -1,0 +1,148 @@
+.navigationBar {
+  max-width: 226px;
+  border: 1px solid #ececec;
+  background: #fff;
+  min-height: 100%;
+  transition: width 0.3s linear;
+  position: relative;
+}
+
+.leftNavigation {
+  width: 226px !important;
+}
+
+.navButton {
+  position: absolute;
+  /* top: -55px; */
+  /* transition: 0.05s linear; */
+  top: 23px;
+  left: 60px;
+  text-align: center;
+  width: 50px;
+  font-size: 30px;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+}
+.menuItem {
+  display: flex !important;
+  align-items: center;
+  width: 335px;
+}
+.menuItem img {
+  margin-right: 10px;
+}
+.navigationBar a.menuItem {
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  font-family: Ubuntu;
+  font-size: px;
+  line-height: 17px;
+  text-decoration: none;
+  border-bottom: 1px solid #ececec;
+}
+.menuItem > img {
+  margin: 5px 32px 0 20px !important;
+  /* padding: 0 8px; */
+}
+.userAvatarWrapper {
+  width: 250px;
+  height: 100px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 0 20px 0 5px;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  /* justify-content: center; */
+}
+.userNames {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 78px;
+
+  height: initial;
+  line-height: initial;
+  /* margin-  right: 40px; */
+  /* padding-right: 10px; */
+}
+.userNames p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.avatar {
+  height: 51px;
+  width: 51px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-right: 20px;
+  background: #00cc99;
+  /* margin-right: 19px; */
+  overflow: hidden;
+}
+.avatar span:first-child {
+  margin-right: 3px;
+}
+.fab {
+  /* background: #00cc99 !important; */
+
+  background-color: #26c6da !important;
+  margin-right: 5px !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+}
+.fab2 {
+  flex-basis: unset;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+.navigationBar a.menuItem:hover,
+.navigationBar a.menuItem:focus {
+  background: rgba(226, 225, 225, 0.2);
+  /* color: #ffffff; */
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.navigationBar a.menuItem div {
+  display: flex;
+}
+.navigationBar a.menuItem .active-icon {
+  display: none;
+}
+.categoryListMainItem {
+}
+.userNames > div {
+  font-weight: bold;
+}
+.userNames > div:first-child {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.userNames > div:nth-child(2) {
+  font-size: 15px;
+}
+.roles {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+  width: 100%;
+}

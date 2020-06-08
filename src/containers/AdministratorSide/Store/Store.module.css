@@ -1,0 +1,165 @@
+.title {
+    color: #4A4A4A;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 27px;
+}
+.storeManagement label {
+    color: #4A4A4A;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    display: block;
+    margin-bottom: 10px;
+}
+.storeManagement select,
+form.storeManagement input[type=text],
+form.storeManagement input[type=tel] {
+    height: 46px;
+    width: 532px;
+    border: 1px solid #B2B2B2;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    margin-bottom: 13px;
+    padding-left: 22px;
+}
+
+.domen {
+    display: flex;
+    margin-bottom: 27px;
+}
+
+.inputsGroup {
+    margin-right: 91px;
+}
+.formTitle {
+    color: #4A4A4A;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 31px;
+}
+.logoImg {
+    width: 200px;
+    height: 200px;
+    background: #ececec;
+    margin-right: 27px;
+}
+.logoImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headerInfo {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 37px;
+}
+.logo {
+    position: absolute;
+    right: 0;
+    top: -200px;
+    display: flex;
+    padding-top: 49px;
+}
+
+.logoInfo {
+    width: 261px;
+}
+.logoInfo p {
+    color: #9B9B9B;
+    font-family: Ubuntu;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+.download {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+}
+.radioBtns {
+    padding-top: 27px;
+}
+.radio {
+    display: flex;
+    /*align-items: center;*/
+    margin-bottom: 17px;
+}
+.radio input[type=radio] {
+    margin-right: 19px;
+}
+.radio label {
+    color: #969696;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 10px;
+    display: block;
+    font-weight: normal;
+}
+.footerInfo {
+    margin-bottom: 37px;
+}
+
+
+
+.input {
+    position: relative;
+    width: 532px;
+}
+.add {
+    height: 16px;
+    width: 16px;
+    background: #4A90E2;
+    line-height: 0;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.choiceDesign {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.choiceDesign label > input {
+    visibility: hidden;
+    position: absolute;
+}
+.choiceDesign label > input + img {
+    cursor:pointer;
+    border:2px solid transparent;
+    width: 250px;
+    height: 250px;
+    opacity: 0.4;
+}
+.choiceDesign label > input:checked + img {
+    opacity: 0.9;
+}
+.create {
+    height: 40px;
+    width: 216px;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: auto;
+    display: block;
+}

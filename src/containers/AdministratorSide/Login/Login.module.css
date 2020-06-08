@@ -1,0 +1,173 @@
+.inputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.form {
+  width: 50%;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.forgot {
+  margin: 15px 0;
+  width: 100%;
+  text-align: right;
+}
+.loginFormButton {
+  display: block;
+  height: 40px;
+  width: 261px;
+  border-radius: 5px;
+  /* background: linear-gradient(270deg, #ff7a00 -2.73%, #eaa900 102.81%); */
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.enterBtn {
+  margin-bottom: 20px;
+}
+.pan:before {
+  content: '';
+  display: block;
+  width: calc(50% - 75px);
+  height: 1px;
+  background-color: #c1c1c1;
+  position: absolute;
+  left: 0px;
+  top: 11px;
+}
+.pan {
+  margin-bottom: 30px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.pan:after {
+  content: '';
+  display: block;
+  width: calc(50% - 75px);
+  height: 1px;
+  background-color: #c1c1c1;
+  right: 0px;
+  position: absolute;
+  top: 11px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #434343;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.logo img {
+  margin: 0 18px 0 0;
+}
+
+.title {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+  /* border-bottom: 1px solid #e2e2e2; */
+
+  margin-bottom: 23px;
+}
+.Form label {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 9.5px;
+  display: block;
+}
+
+.reset {
+  color: #f19300;
+  font-family: Ubuntu;
+  font-size: 16px;
+  line-height: 18px;
+  display: block;
+  margin-left: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.reset {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 26px;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+.registration {
+  color: #f19300;
+  font-family: Ubuntu;
+  font-size: 16px;
+  line-height: 18px;
+}
+.regBtn {
+  height: 40px;
+  width: 210px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e2e2e2;
+}
+
+/*Media*/
+
+@media screen and (max-width: 768px) {
+  .Form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .registration {
+    margin-bottom: 20px;
+  }
+  .reset {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .actions {
+    justify-content: center;
+  }
+}

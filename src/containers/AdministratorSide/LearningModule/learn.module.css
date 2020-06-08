@@ -1,0 +1,266 @@
+.link {
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 24px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #f6f6f6 !important;
+  margin-bottom: 2px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 20px;
+}
+.lessongBtns {
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper {
+  display: flex;
+  /* width: 100; */
+  width: 1100px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.content {
+  width: 100%;
+}
+.aboutContent {
+  width: 900px;
+  padding: 30px 15px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+.aboutContent h2 {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'arial';
+}
+/* .aboutContent p {
+  margin-bottom: 20px;
+} */
+.list {
+  padding-left: 40px;
+  list-style: none;
+}
+.list li {
+  position: relative;
+}
+.list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #26c6da;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+  width: 5px;
+  height: 5px;
+}
+.statuslist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.statuslist li {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+.statuslist li > span:first-child {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.docImg {
+  width: 5%;
+}
+
+.downloadDocText {
+  color: black;
+  font-size: 15px;
+  /* margin-bottom: -20px; */
+  margin-left: 20px;
+  font-family: serif;
+}
+
+.downloadDocText:hover {
+  color: #EE6B3C;
+  opacity: 0.8;
+}
+
+.text {
+  text-indent: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: black;
+  font-family: 'arial';
+}
+
+.downloadDoc {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.lessonButton {
+  margin: 0 0 15px 0;
+    display: flex;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+    width: 20%;
+    height: 24px;
+    font-size: 19px;
+    justify-content: center;
+    padding: 1px;
+}
+
+.lessonButton h6 {
+  font-family: 'arial';
+}
+
+.videoLink {
+  margin-bottom: 10px;
+}
+
+.textFieldHW {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin-bottom: 13px;
+  font-weight: 900;
+}
+
+.textFieldHW textarea {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.attachDoc {
+  display: flex;
+  align-items: center;
+}
+
+.attachDocAndSave {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.attachDocButton {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 12px;
+  /* border: 1px solid black; */
+  padding: 4px 4px;
+  -webkit-transition: all .3s;
+  /* transition: all .40s; */
+  font-weight: 900;
+    opacity: 0.5;
+}
+
+.attachDocButton:hover {
+  border: 2px solid #26C6D9;
+  color: #26C6D9;
+  animation: shake .60s linear 1;
+}
+
+@keyframes shake {
+  33% { transform: rotate(2deg); }
+  
+  66% { transform: rotate(-2deg); }
+  
+  100% { transform: rotate(2deg); }
+}
+
+.HW ol li{
+  font-size: 15px;
+  font-weight: 400;
+  font-family: none;
+}
+
+.text ul, .text ol{
+  padding: 3px 16px;
+}
+
+.HW{
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: serif;
+}
+
+.HWtext {
+  color: Orange;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid Orange;
+}
+
+.HWtextDONE {
+  color: green;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.text, .HW {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* .videoLink #document::shadow body {
+  display: none;
+} */
+
+.video {
+  /* pointer-events: none; */
+  width: 100%;
+  cursor: pointer;
+}
+
+.videoWrap {
+  cursor: pointer;
+/* display: inline-flex; */
+}
+
+.specificationStar {
+  color: red;
+}
+
+.specificationText {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.mexImg {
+  width: 95%;
+}

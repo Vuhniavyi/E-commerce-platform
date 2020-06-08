@@ -1,0 +1,4 @@
+export const ActionType = {
+  UPDATE_PROFILE: 'UPDATE_PROFILE',
+  CHANGE_CATEGORY: 'CHANGE_CATEGORY',
+}

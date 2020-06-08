@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="31px" viewBox="0 0 25 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>notification (1)</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Мой-кабинет-(Недоступен)" transform="translate(-275.000000, -35.000000)" fill="#E2E2E2">
+            <g id="Top">
+                <g id="Notchatbask" transform="translate(275.000000, 30.000000)">
+                    <g id="notification-(1)" transform="translate(0.000000, 5.000000)">
+                        <path d="M12.5,30.4093567 C14.2231725,30.4093567 15.6189327,29.0136696 15.6189327,27.290424 L9.38114035,27.290424 C9.38106725,29.0136696 10.7768275,30.4093567 12.5,30.4093567 Z" id="Path"></path>
+                        <path d="M21.8567251,21.0526316 L21.8567251,13.2553363 C21.8567251,8.46001462 19.3070175,4.46001462 14.8391813,3.3995614 L14.8391813,2.33918129 C14.8391813,1.04480994 13.7943713,0 12.5,0 C11.2056287,0 10.1608187,1.04480994 10.1608187,2.33918129 L10.1608187,3.3996345 C5.69298246,4.46008772 3.14327485,8.46008772 3.14327485,13.2554094 L3.14327485,21.0526316 L0.0243421053,24.1715643 L0.0243421053,25.7309942 L24.9755848,25.7309942 L24.9755848,24.1715643 L21.8567251,21.0526316 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

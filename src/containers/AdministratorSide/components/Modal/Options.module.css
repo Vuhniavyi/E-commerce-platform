@@ -1,0 +1,50 @@
+.Group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  /* margin-top: 2.5rem; */
+}
+.GroupItem {
+  /* justify-content: space-between; */
+  width: 46%;
+  margin-bottom: 1rem;
+}
+.additionParamsGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Text {
+  padding: 0.375rem;
+  width: 40%;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+
+  /* color: linear-gradient(90deg, #26c6da, #0290a3); */
+}
+.Parameters {
+  width: 48%;
+}
+
+fieldset {
+  width: 100%;
+  padding: 20px;
+  border: 2px groove lightcyan;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+fieldset:first-child {
+  margin-top: 25px;
+}
+fieldset:last-of-type {
+  margin-bottom: 0;
+}
+legend {
+  padding: 0 5px;
+  margin-left: 20px;
+  font-size: 1rem;
+  width: initial;
+}

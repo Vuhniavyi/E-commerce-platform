@@ -1,0 +1,51 @@
+version: 2.1
+commands:
+  docker_login:
+    steps:
+      - run:
+          name: Docker Login
+          command: echo $DOCKER_PASS | docker login --username $DOCKER_USER --password-stdin
+
+  docker_build_push:
+    steps:
+      - run:
+          name: Build and Push Image
+          no_output_timeout: 40m
+          command: |
+            PROJECT_BRANCH=$(echo $CIRCLE_BRANCH | awk -F "/" '{print $1}')
+            if [ "${CIRCLE_BRANCH}" == "master" ] || [ "${CIRCLE_BRANCH}" == "Development" ] || [ "${CIRCLE_BRANCH}" == "LP" ] || [ "${CIRCLE_BRANCH}" == "dev" ];
+            then
+              TAG=$PROJECT_BRANCH-$CIRCLE_BUILD_NUM
+              docker build --build-arg PUBLIC_URL='/' -t gofriends/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH .
+              docker tag gofriends/$CIRCLE_PROJECT_REPONAME:$CIRCLE_BRANCH gofriends/$CIRCLE_PROJECT_REPONAME:$TAG
+              docker push gofriends/$CIRCLE_PROJECT_REPONAME
+            fi;
+
+jobs:
+  build:
+    #docker:
+    #  - image: docker:stable
+    machine:
+      image: ubuntu-1604:201903-01
+    working_directory: /tmp/app
+    steps:
+      - checkout
+      #- setup_remote_docker:
+      #    docker_layer_caching: true
+      #    version: 18.09.3
+      - docker_login
+      - docker_build_push
+
+workflows:
+  version: 2
+  frontend:
+    jobs:
+      - build:
+          context: docker
+          filters:
+            branches:
+              only:
+                - master
+                - Development
+                - LP
+                - dev

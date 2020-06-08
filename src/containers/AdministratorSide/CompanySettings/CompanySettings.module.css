@@ -1,0 +1,289 @@
+.settingsForm {
+  display: flex;
+  justify-content: space-between;
+}
+.firstColumn {
+  flex: 1;
+  margin: 0 25px 0 0;
+}
+
+.secondColumn {
+  flex: 1;
+  margin: 0 0 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CheckboxGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.documentBlock {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.documentBlock i {
+  font-size: 30px !important;
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.generalInformation {
+  padding: 35px 36px 35px 29px;
+  background: #fff;
+  border: 1px solid #ececec;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+.generalInformation h4 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.generalInformation span {
+  color: #9b9b9b;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+.right {
+  width: 532px;
+}
+.generalInformation div {
+  margin-bottom: 17px;
+}
+.generalInformation h5 {
+  color: #4a4a4a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 21px;
+  margin-top: 20px;
+}
+.type {
+  /*display: flex;*/
+  margin: 30px 0;
+}
+
+.logo {
+  display: flex;
+}
+.logoImg {
+  width: 200px;
+  height: 200px;
+  margin-right: 29px;
+}
+.logoImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logoInfo {
+  width: 261px;
+}
+.logoInfo h4 {
+  margin-bottom: 34px;
+}
+.logo p {
+  color: #9b9b9b;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 59px;
+}
+.change {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.left {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left h4 {
+  margin-bottom: 35px;
+}
+.loginFormButton {
+  width: 200px;
+  margin: 20px 0 0 auto !important;
+}
+
+.companyPage {
+  background: #fff;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%; */
+  padding: 0 50px;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.pitch {
+  background: #fff;
+  border-top: none;
+}
+.pitchcontrols {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.last {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.save {
+  margin-bottom: 15px;
+  height: 40px;
+  width: 260px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  display: block;
+  margin-left: auto;
+}
+
+.documents {
+  background: #fff;
+  padding: 30px 24px;
+  border: 1px solid #ececec;
+  border-top: none;
+}
+
+.documentTitle {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 15px;
+}
+.description {
+  color: #d3d3d3;
+  font-family: Ubuntu;
+  font-size: 18px;
+  line-height: 21px;
+}
+.information {
+  font-size: 18px;
+  line-height: 21px;
+}
+.type .Checkbox {
+  margin-bottom: 17px;
+}
+.typeTitle {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 21px;
+}
+.sectionDescription {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 45px;
+  display: block;
+}
+
+.docImg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.docImg img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 0;
+}
+
+.docImg img:hover {
+  opacity: 0.1;
+  content: 'dasdsad';
+}
+
+
+
+.logoImg {
+  width: 200px;
+  height: 200px;
+  background: #ececec;
+  margin-right: 27px;
+}
+.logoImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.headerInfo {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 37px;
+}
+
+.logo {
+  display: flex;
+  margin: 0 0 50px 0;
+}
+
+.logoInfo {
+  width: 261px;
+}
+.logoInfo p {
+  color: #9b9b9b;
+  font-family: Ubuntu;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 60px;
+}
+
+.paper {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 200px;
+  margin-top: 20px !important;
+}
+.contentwrapper {
+  width: 100%;
+  max-width: 1200px;
+}
+.novapostaApiKey {
+  display: flex;
+  align-items: flex-end;
+}

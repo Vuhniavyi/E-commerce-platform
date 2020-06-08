@@ -1,0 +1,20 @@
+.text {
+  margin-bottom: 6px;
+}
+
+.wrap {
+  margin-bottom: 7px;
+}
+
+.inputMB {
+  margin-bottom: 15px;
+}
+
+.wrapPrice {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-left: 20px;
+}

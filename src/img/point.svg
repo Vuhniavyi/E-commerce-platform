@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>2CE2ADF5-5368-4572-A284-6AA2C2E4FA68</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="20.5" r="13.5"></circle>
+        <filter x="-53.7%" y="-46.3%" width="207.4%" height="207.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.26002038 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="финансы" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-371.000000, -928.000000)">
+            <g id="Group-7" transform="translate(371.000000, 928.000000)">
+                <g id="Group-6">
+                    <g id="Group-4">
+                        <g id="point">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <polyline id="Path-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="18 21.1248749 21.3326186 26.2497497 28.6620587 16"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

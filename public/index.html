@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/logoicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet" />
+
+  <meta name="theme-color" content="#000000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video-js.min.css" rel="stylesheet"> -->
+
+  <title>Buy & Sell</title>
+</head>
+
+<body>
+
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <div id="root"></div>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v5.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/ru_RU/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, 'script', 'facebook-jssdk');
+  </script>
+  <!-- <script>
+      !function(e,o){!window.omni?window.omni=[]:'';
+      window.omni.push(o);
+      o.g_config={widget_id:"3265-2g55uphs"}; 
+      o.email_widget=o.email_widget||{};
+      var w=o.email_widget;
+      w.readyQueue=[];
+      o.config=function(e){ this.g_config.user=e};
+      w.ready=function(e){this.readyQueue.push(e)};
+      var r=e.getElementsByTagName("script")[0];
+      c=e.createElement("script");
+      c.type="text/javascript",c.async=!0;
+      c.src="https://omnidesk.ru/bundles/acmesite/js/cwidget0.2.min.js";
+      r.parentNode.insertBefore(c,r)}(document,[]);
+    </script>  -->
+
+  <!-- <script>
+  window.fbAsyncInit=function(){FB.init({xfbml:!0,version:"v3.3"})},function(e,t,n){var c,o=e.getElementsByTagName(t)[0];e.getElementById(n)||((c=e.createElement(t)).id=n,c.src="https://connect.facebook.net/ru_RU/sdk/xfbml.customerchat.js",o.parentNode.insertBefore(c,o))}(document,"script","facebook-jssdk")
+</script>
+
+<script>
+!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={1:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])
+</script> -->
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution="setup_tool" page_id="2096361523806289"
+    logged_in_greeting="Здравствуйте! Как мы можем Вам помочь?"
+    logged_out_greeting="Здравствуйте! Как мы можем Вам помочь?"></div>
+  <!-- End Facebook SDK for JavaScript -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/6.7.3/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js"></script> -->
+
+
+    <script id="widget-wfp-script" language="javascript" type="text/javascript" src="https://secure.wayforpay.com/server/pay-widget.js"></script>
+    <script>
+      window.wayforpay = new Wayforpay();
+    </script>
+    <!-- <script type="text/javascript">
+        var wayforpay = new Wayforpay();
+        var pay = function () {
+            wayforpay.run({
+                    merchantAccount : "test_merch_n1",
+                    merchantDomainName : "www.market.ua",
+                    authorizationType : "SimpleSignature",
+                    merchantSignature : "b95932786cbe243a76b014846b63fe92",
+                    orderReference : "DH783023",
+                    orderDate : "1415379863",
+                    amount : "1547.36",
+                    currency : "UAH",
+                    productName : "Процессор Intel Core i5-4670 3.4GHz",
+                    productPrice : "1000",
+                    productCount : "1",
+                    clientFirstName : "Вася",
+                    clientLastName : "Васечкин",
+                    clientEmail : "some@mail.com",
+                    clientPhone: "380631234567",
+                    language: "UA"
+                },
+                function (response) {
+                    // on approved             
+                },
+                function (response) {
+                    // on declined
+                },
+                function (response) {
+                    // on pending or in processing
+                }
+            );
+        }
+    </script> -->
+
+
+
+   
+</body>
+
+</html>
